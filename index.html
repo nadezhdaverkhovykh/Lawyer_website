@@ -15,70 +15,77 @@
       rel="icon"
       type="image/ico"
       sizes="32x32"
-      href="/src/images/femida.ico"
+      href="./src/images/femida.ico"
     />
     <link
       rel="icon"
       type="image/ico"
       sizes="16x16"
-      href="/src/images/femida.ico"
+      href="./src/images/femida.ico"
     />
-    <link rel="shortcut icon" href="/src/images/free-icon.png" />
+    <link rel="shortcut icon" href="./src/images/free-icon.png" />
   </head>
   <body>
     <header>
-      <div class="container">
-        <address class="header__contacts">
-          <div class="header__info">
-            <a href="tel:+79220229482" class="header__tel">
-              <img
-                class="header__icon"
-                src="/src/images/icons/phone.png"
-                alt="Телефон"
-              />+7 (922) 022-94-82</a
-            >
-            <a href="mailto:janis62@yahoo.com" class="header__email">
-              <img
-                class="header__icon"
-                src="./src/images/icons/mail.png"
-                alt="Почта"
-              />janis62@yahoo.com</a
-            >
+      <div class="header__wrapper">
+        <div class="container">
+          <address class="header__contacts">
+            <div class="header__info">
+              <a href="tel:+79220229482" class="header__tel">
+                <img
+                  class="header__icon"
+                  src="./src/images/icons/phone.png"
+                  alt="Телефон"
+                />+7 (922) 022-94-82</a
+              >
+              <a href="mailto:janis62@yahoo.com" class="header__email">
+                <img
+                  class="header__icon"
+                  src="./src/images/icons/mail.png"
+                  alt="Почта"
+                />janis62@yahoo.com</a
+              >
+            </div>
+            <button class="header__call">Заказать звонок</button>
+          </address>
+        </div>
+      </div>
+      <div class="header__bar_wrapper">
+        <div class="container">
+          <div class="header__bar">
+            <h1 class="header__title">
+              <span class="header__name">Правозащитник</span>юридическая
+              компания
+            </h1>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__item_blue" href="#services">Услуги</a>
+                </li>
+              </ul>
+              <ul class="header__list"></ul>
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__item_blue" href="#staff">Наши юристы</a>
+                </li>
+              </ul>
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__item_blue" href="#feedback">Отзывы</a>
+                </li>
+              </ul>
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__item_blue" href="#news">Новости</a>
+                </li>
+              </ul>
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__item_blue" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <button class="header__call">Заказать звонок</button>
-        </address>
-        <div class="header__bar">
-          <h1 class="header__title">
-            <span class="header__name">Правозащитник</span>юридическая компания
-          </h1>
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li class="header__item">
-                <a class="header__item_blue" href="#services">Услуги</a>
-              </li>
-            </ul>
-            <ul class="header__list"></ul>
-            <ul class="header__list">
-              <li class="header__item">
-                <a class="header__item_blue" href="#staff">Наши юристы</a>
-              </li>
-            </ul>
-            <ul class="header__list">
-              <li class="header__item">
-                <a class="header__item_blue" href="#feedback">Отзывы</a>
-              </li>
-            </ul>
-            <ul class="header__list">
-              <li class="header__item">
-                <a class="header__item_blue" href="#news">Новости</a>
-              </li>
-            </ul>
-            <ul class="header__list">
-              <li class="header__item">
-                <a class="header__item_blue" href="#contacts">Контакты</a>
-              </li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
@@ -95,18 +102,22 @@
             </p>
             <a href="#" class="hero__link">Наши услуги</a>
           </div>
-          <div class="hero__slider">
-            <div class="hero__sticks">
-              <span class="hero__stick hero__stick_select"></span>
-              <span class="hero__stick"></span>
-              <span class="hero__stick"></span>
-            </div>
-            <div class="hero__change">
-              <input class="change__arrow" type="button" value="<" />
-              <span class="change__span">/</span>
-              <input class="change__arrow" type="button" value=">" />
-            </div>
+
+          <!-- <div class="hero__slider"> -->
+          <div class="hero__sticks">
+            <span class="hero__stick hero__stick_select"></span>
+            <span class="hero__stick"></span>
+            <span class="hero__stick"></span>
           </div>
+          <div
+            class="hero__change"
+            <input
+            class="change__arrow"
+            type="button"
+            value="<"
+          />
+          <span class="change__span">/</span>
+          <input class="change__arrow" type="button" value=">" />
         </div>
       </section>
       <section class="services">
@@ -141,7 +152,7 @@
 
               <article class="services__item">
                 <img
-                  src="/src/images/icons/icon.png"
+                  src="./src/images/icons/icon.png"
                   alt="Иконка"
                   class="services__icon"
                 />
@@ -160,7 +171,7 @@
 
               <article class="services__item">
                 <img
-                  src="/src/images/icons/icon.png"
+                  src="./src/images/icons/icon.png"
                   alt="Иконка"
                   class="services__icon"
                 />
@@ -178,7 +189,7 @@
               </article>
               <article class="services__item">
                 <img
-                  src="/src/images/icons/icon.png"
+                  src="./src/images/icons/icon.png"
                   alt="Иконка"
                   class="services__icon"
                 />
@@ -196,7 +207,7 @@
               </article>
               <article class="services__item">
                 <img
-                  src="/src/images/icons/icon.png"
+                  src="./src/images/icons/icon.png"
                   alt="Иконка"
                   class="services__icon"
                 />
@@ -215,7 +226,7 @@
               </article>
               <article class="services__item">
                 <img
-                  src="/src/images/icons/icon.png"
+                  src="./src/images/icons/icon.png"
                   alt="Иконка"
                   class="services__icon"
                 />

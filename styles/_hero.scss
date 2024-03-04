@@ -1,19 +1,18 @@
 .hero {
-  height: 820px;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-image: url("../src/images/background.jpg");
 }
 
 .hero__text {
-  width: 1090px;
-  height: 48px;
+  // width: 1090px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transform: translateY(300px);
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 .hero__title {
   color: #ffffff;
@@ -29,15 +28,13 @@
   margin-top: 8px;
   font-size: 20px;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero__change {
   margin-top: 500px;
 }
 .hero__link {
-  margin-top: 64px;
-  height: 49px;
-  width: 138px;
   background-color: $main-color;
   cursor: pointer;
   text-align: center;
@@ -46,7 +43,7 @@
   color: #ffffff;
   margin-top: 64px;
   padding: 16px 24px 16px 24px;
-  font-weight: 900px;
+  font-weight: 900;
 }
 .hero__slider {
   margin-top: 192px;
@@ -65,4 +62,7 @@
 //   height: 40px;
 //   color: $main-color;
 //   display: block;
+// }
+// .hero__text_wrapper {
+//   width: 100vw;
 // }
