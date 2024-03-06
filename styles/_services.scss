@@ -12,7 +12,7 @@
 .services__cards {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(3, 424px);
+  grid-template-columns: repeat(3, 31fr);
   grid-template-rows: repeat(2, 250px);
   margin: 48px;
 }
@@ -24,7 +24,7 @@
 }
 .services__title {
   font-size: 28px;
-  font-weight: 800px;
+  font-weight: 800;
   margin-top: 80px;
   position: relative;
 }
@@ -33,11 +33,12 @@
   width: 920px;
   height: 38px;
   margin-top: 24px;
+  text-align: center;
 }
 .services__description2 {
   font-size: 14px;
   text-align: center;
-  //   margin-top: 10px;
+  margin-top: 5px;
 }
 .item__title {
   text-align: center;
@@ -47,29 +48,28 @@
   margin: 0 auto;
   width: 29px;
   height: 29px;
-  margin-top: 52px;
 }
+
 .services__item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  padding: 50px 32px 50px 32px;
 }
 .services {
   background-color: #f7f7f7;
 }
-// .services__icon:hover {
 
-// }
 .services__title::after {
   content: "";
   width: 50px;
   border: solid 2px $main-color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 67px;
+  margin: -7px;
 }
 .item__link {
   height: 49px;
@@ -83,4 +83,10 @@
   padding: 16px 24px 16px 24px;
   display: block;
   margin: 0 auto;
+  font-weight: 900;
+}
+.services__item:hover {
+  background-image: url(../src/images/icons/Vector2.png);
+  background-repeat: no-repeat;
+  
 }

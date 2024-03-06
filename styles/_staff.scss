@@ -1,0 +1,79 @@
+.staff__title {
+  font-size: 28px;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+}
+.staff__title::after {
+  content: "";
+  width: 50px;
+  border: solid 2px $main-color;
+  position: absolute;
+  bottom: 0px;
+  left: 624px;
+}
+.staff__front {
+  display: block;
+  transform: rotateY(0deg);
+}
+.staff__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.staff {
+  margin-top: 80px;
+  background-color: #f7f7f7;
+}
+.staff__description {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+.staff__card {
+  width: 312px;
+  height: 414px;
+  cursor: pointer;
+}
+.staff__photo {
+  width: 312px;
+  height: 320px;
+  background-size: cover;
+  background-color: #f7f7f7;
+}
+.staff__name_title {
+  font-weight: 700;
+}
+.staff__back {
+  width: 312px;
+  height: 414px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+  transform: rotateY(180deg);
+}
+// .staff__front:hover ~ .staff__back {
+//   display: block;
+// }
+// .staff__front:hover ~ .staff__front {
+//   display: block;
+// }
+// .staff__card:hover ~ .staff__front {
+//   transform: rotateY(-180deg);
+// }
+// .staff__card:hover ~ .staff__back {
+//   transform: rotateY(0deg);
+// }
+.staff__track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.hiddenpool {
+  margin-top: 40px;
+}

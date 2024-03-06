@@ -1,0 +1,21 @@
+.feedback__buttons {
+  display: flex;
+  gap: 48px;
+}
+.feedback__card {
+  width: 648px;
+  height: 244px;
+  background-color: white;
+}
+.feedback__wrapp {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+.feedback__client {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  background-size: cover;
+}

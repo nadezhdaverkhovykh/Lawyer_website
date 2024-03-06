@@ -91,7 +91,7 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero__wrapper">
           <div class="hero__text">
             <p class="hero__title">Оказываем весь комплекс</p>
             <h2 class="hero__title_blue">Юридических услуг</h2>
@@ -102,22 +102,20 @@
             </p>
             <a href="#" class="hero__link">Наши услуги</a>
           </div>
-
-          <!-- <div class="hero__slider"> -->
-          <div class="hero__sticks">
-            <span class="hero__stick hero__stick_select"></span>
-            <span class="hero__stick"></span>
-            <span class="hero__stick"></span>
+          <div class="hero__changes">
+            <!-- <div class="hero__slider"> -->
+            <div class="hero__sticks">
+              <span class="hero__stick hero__stick_select"></span>
+              <span class="hero__stick"></span>
+              <span class="hero__stick"></span>
+            </div>
+            <!-- </div> -->
+            <div class="hero__change">
+              <input class="change__arrow" type="button" value="<" />
+              <span class="change__span">/</span>
+              <input class="change__arrow" type="button" value=">" />
+            </div>
           </div>
-          <div
-            class="hero__change"
-            <input
-            class="change__arrow"
-            type="button"
-            value="<"
-          />
-          <span class="change__span">/</span>
-          <input class="change__arrow" type="button" value=">" />
         </div>
       </section>
       <section class="services">
@@ -134,8 +132,8 @@
               <article class="services__item">
                 <img
                   src="./src/images/icons/icon.png"
+                  class="service__icon"
                   alt="Иконка"
-                  class="services__icon"
                 />
                 <h3 class="item__title">Банкротство физических лиц</h3>
                 <p class="services__description2">
@@ -245,6 +243,172 @@
             </div>
           </div>
           <a href="#" class="item__link">Все услуги</a>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__wrapper container">
+          <div class="about__content">
+            <div class="about__text">
+              <p class="about__title">
+                Юридическая компания
+                <span class="about__title_blue">правозащитник</span>
+              </p>
+              <p class="about__description">
+                Давно выяснено, что при оценке дизайна и композиции читаемый
+                текст мешает сосредоточиться. Lorem Ipsum используют потому, что
+                тот обеспечивает более или менее стандартное заполнение <br />
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+                всегда приемлемые модификации, например, юмористические вставки
+                или слова, которые даже отдалённо не напоминают латынь. Если вам
+                нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите
+                какой-нибудь шутки, скрытой в середине абзаца.<br />
+                За прошедшие годы текст Lorem Ipsum получил много версий.
+                Некоторые версии появились по ошибке, некоторые - намеренно
+                (например, юмористические варианты).
+              </p>
+
+              <div class="about__buttons">
+                <a class="item__link_two" href="#">История компании</a>
+                <a class="item__link_grey" href="#">Сертификаты</a>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./src/images/Books.png"
+            alt="Книги"
+            class="about__picture"
+          />
+        </div>
+      </section>
+      <section class="staff">
+        <div class="container">
+          <div class="staff__text">
+            <h3 class="staff__title">НАШИ ЮРИСТЫ</h3>
+            <p class="staff__description">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона
+            </p>
+          </div>
+          <div class="hiddenpool">
+            <div class="staff__track">
+              <article class="staff__card">
+                <div class="staff__front">
+                  <img
+                    src="./src/images/Photo1.png"
+                    alt="Фото сотрудника"
+                    class="staff__photo"
+                  />
+                  <div class="staff__name">
+                    <p class="staff__name_title">Горюнова Полина Алексеевна</p>
+                    <p class="staff__position">Юрист международного права</p>
+                  </div>
+                  <div class="staff__back">
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <p class="staff__name_title">Горюнова Полина Алексеевна</p>
+                    <p class="staff__position">Юрист международного права</p>
+                    <p class="staff__experience">10 лет юридической практики</p>
+                  </div>
+                </div>
+              </article>
+              <div class="staff__track">
+              <article class="staff__card">
+                <div class="staff__front">
+                  <img
+                    src="./src/images/Photo2.png"
+                    alt="Фото сотрудника"
+                    class="staff__photo"
+                  />
+                  <div class="staff__name">
+                    <p class="staff__name_title">Миронов Александр Германович</p>
+                    <p class="staff__position">Кредитный адвокат, банковский юрист</p>
+                  </div>
+                  <div class="staff__back">
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <p class="staff__name_title">Миронов Александр Германовича</p>
+                    <p class="staff__position">Кредитный адвокат, банковский юрист</p>
+                    <p class="staff__experience">15 лет юридической практики</p>
+                  </div>
+                </div>
+              </article>
+              <div class="staff__track">
+              <article class="staff__card">
+                <div class="staff__front">
+                  <img
+                    src="./src/images/Photo1.png"
+                    alt="Фото сотрудника"
+                    class="staff__photo"
+                  />
+                  <div class="staff__name">
+                    <p class="staff__name_title">Шувалова Елизавета Егоровна</p>
+                    <p class="staff__position">Юридический консультант</p>
+                  </div>
+                  <div class="staff__back">
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <p class="staff__name_title">Шувалова Елизавета Егоровна</p>
+                    <p class="staff__position">Юридический консультант</p>
+                    <p class="staff__experience">12 лет юридической практики</p>
+                  </div>
+                </div>
+              </article>
+              <div class="staff__track">
+              <article class="staff__card">
+                <div class="staff__front">
+                  <img
+                    src="./src/images/Photo4.png"
+                    alt="Фото сотрудника"
+                    class="staff__photo"
+                  />
+                  <div class="staff__name">
+                    <p class="staff__name_title">Архипов Максим Константинович</p>
+                    <p class="staff__position">Корпоративный юрист</p>
+                  </div>
+                  <div class="staff__back">
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <span class="staff_decor"></span>
+                    <p class="staff__name_title">Архипов Максим Константинович</p>
+                    <p class="staff__position">Корпоративный юрист</p>
+                    <p class="staff__experience">10 лет юридической практики</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__wrapper">
+           <p class="feedback__title">Что о нас говорят клиенты</p>
+           <div class="feedback__change">
+           <input class="change__arrow" type="button" value="<" />
+           <span class="change__span">/</span>
+           <input class="change__arrow" type="button" value=">" /> </div>
+          </div>
+          <div class="feedback__wrapper_card">
+            <div class="feedback__card">
+              <div class="feedback__wrapp">
+              <img class="feedback__client" src="./src/images/respondent.png" alt="Клиент">
+              <p class="feedback__company">ООО “ИТ Консалтинг”</p>
+              <p class="feedback__name">Логинова Анастасия</p>
+            </div>
+            <p class="feedback__desc">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов ...</p>
+          </div>
+          </div>
+          <div class="feedback__buttons">
+          <a class="item__link_two" href="">Все отзывы</a>
+          <a class="item__link_grey" href="">Написать отзыв</a></div>
         </div>
       </section>
     </main>
