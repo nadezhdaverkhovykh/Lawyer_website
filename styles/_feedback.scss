@@ -1,20 +1,133 @@
-.feedback__buttons {
-  display: flex;
-  gap: 48px;
-}
-.feedback__card {
-  width: 648px;
-  height: 244px;
-  background-color: white;
-}
-.feedback__wrapp {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
-.feedback__client {
-  width: 80px;
-  height: 80px;
-  background-color: white;
+.feedback {
+  background-image: url("../src/images/feedback_background.png");
   background-size: cover;
+  background-position: center;
+
+  &__buttons {
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+  }
+  &__card {
+    width: 648px;
+    height: 244px;
+    padding: 32px;
+    cursor: url(../src/images/cursors/feather.png) 2 2, default;
+    margin-top: 20px;
+  }
+  &__wrapp {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  &__client {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    background-size: cover;
+  }
+  &__name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &__title {
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+  }
+  &__title::after {
+    content: "";
+    width: 50px;
+    border: solid 2px $main-color;
+    position: absolute;
+    bottom: 0px;
+    left: 11px;
+    margin: -7px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__wrapper_card {
+    display: flex;
+    gap: 24px;
+  }
 }
+.change__arrow_blue,
+.change__span_blue {
+  font-size: 30px;
+  color: $main-color;
+  background-color: transparent;
+  border: none;
+}
+.change__arrow_blue:hover {
+  transform: scale(1.5);
+}
+
+// .feedback {
+//   background-image: url("../src/images/feedback_background.png");
+//   background-size: cover;
+//   background-position: center;
+// }
+// .feedback__buttons {
+//   display: flex;
+//   gap: 48px;
+//   margin-top: 48px;
+// }
+// .feedback__card {
+//   width: 648px;
+//   height: 244px;
+//   padding: 32px;
+//   cursor: url(../src/images/cursors/feather.png) 2 2, default;
+//   margin-top: 20px;
+// }
+// .feedback__wrapp {
+//   display: flex;
+//   align-items: center;
+//   gap: 9px;
+// }
+// .feedback__client {
+//   width: 80px;
+//   height: 80px;
+//   background-color: white;
+//   background-size: cover;
+// }
+// .feedback__name {
+//   font-size: 20px;
+//   font-weight: 700;
+// }
+// .feedback__title {
+//   font-size: 28px;
+//   font-weight: 800;
+//   position: relative;
+// }
+// .feedback__title::after {
+//   content: "";
+//   width: 50px;
+//   border: solid 2px $main-color;
+//   position: absolute;
+//   bottom: 0px;
+//   left: 11px;
+//   margin: -7px;
+// }
+// .feedback__wrapper {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+// .change__arrow_blue,
+// .change__span_blue {
+//   font-size: 30px;
+//   color: $main-color;
+//   background-color: transparent;
+//   border: none;
+// }
+// .change__arrow_blue:hover {
+//   transform: scale(1.5);
+// }
+// .feedback__wrapper_card {
+//   display: flex;
+//   gap: 24px;
+// }

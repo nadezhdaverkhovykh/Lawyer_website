@@ -1,0 +1,152 @@
+// footer {
+//   background-color: #222222;
+//   &__logo {
+//     color: #ffffff;
+//     font-size: 20px;
+//     font-weight: 900;
+//     line-height: 25px;
+//   }
+//   &__span {
+//     color: $main-color;
+//     font-size: 28px;
+//     font-weight: 900;
+//   }
+
+//   &__title {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+//   &__text {
+//     color: #ffffff;
+//     margin: 40px;
+//   }
+//   &__info {
+//     font-size: 12px;
+//     color: #8c8c8c;
+//   }
+//   &__item {
+//     font-weight: 700;
+//     color: #ffffff;
+//   }
+
+//   &__information {
+//     margin-left: 5px;
+//   }
+
+//   &__menu {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+//   &__ask {
+//     display: flex;
+//     align-items: center;
+//   }
+//   &__description {
+//     font-size: 14px;
+//     color: #ffffff;
+//     width: 424px;
+//     margin-bottom: 30px;
+//   }
+
+//   &__lawyer {
+//     width: 65px;
+//     height: 65px;
+//     background-image: rgb(12, 12, 12);
+//     background-size: cover;
+//   }
+// }
+// .menu__wrapper {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+// hr {
+//   border: 1px solid #8c8c8c;
+// }
+// .menu:hover {
+//   color: $main-color;
+// }
+
+// .address,
+// .phone,
+// .mail {
+//   display: flex;
+//   align-items: center;
+//   margin: 10px;
+// }
+
+footer {
+  background-color: #222222;
+}
+.footer__logo {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+}
+.footer__span {
+  color: $main-color;
+  font-size: 28px;
+  font-weight: 900;
+}
+.footer__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+  color: #ffffff;
+  margin: 40px;
+}
+.footer__info {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+.footer__item {
+  font-weight: 700;
+  color: #ffffff;
+}
+.address,
+.phone,
+.mail {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.footer__information {
+  margin-left: 5px;
+}
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu:hover {
+  color: $main-color;
+}
+
+.footer__ask {
+  display: flex;
+  align-items: center;
+}
+.footer__description {
+  font-size: 14px;
+  color: #ffffff;
+  width: 424px;
+  margin-bottom: 30px;
+}
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  border: 1px solid #8c8c8c;
+}
+.footer__lawyer {
+  width: 65px;
+  height: 65px;
+  background-image: rgb(12, 12, 12);
+  background-size: cover;
+}

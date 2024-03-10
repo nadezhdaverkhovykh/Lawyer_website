@@ -1,0 +1,129 @@
+.news {
+  &__title {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+  }
+  &__title::after {
+    content: "";
+    width: 50px;
+    border: solid 2px $main-color;
+    position: absolute;
+    bottom: 0px;
+    left: 601px;
+  }
+  &__text {
+    text-align: center;
+    margin-top: 24px;
+  }
+  &__cards {
+    display: flex;
+    gap: 24px;
+    margin: 48px;
+  }
+
+  &__picture {
+    width: 424px;
+    height: 270px;
+    background-color: white;
+    background-size: cover;
+  }
+  &__pretitle {
+    font-weight: 700;
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  &__date {
+    font-size: 12px;
+  }
+  &__desc {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+
+  &__pretitle:hover {
+    color: $main-color;
+  }
+  &__card {
+    cursor: url(../src/images/cursors/la_hand-pointer.png) 2 2, default;
+  }
+}
+.item__link {
+  width: 158px;
+  background-color: $main-color;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  color: #ffffff;
+  padding: 16px 24px 16px 24px;
+  display: block;
+  margin: 0 auto;
+  font-weight: 900;
+}
+
+// .news__title {
+//   font-size: 28px;
+//   font-weight: 800;
+//   text-align: center;
+//   position: relative;
+// }
+// .news__title::after {
+//   content: "";
+//   width: 50px;
+//   border: solid 2px $main-color;
+//   position: absolute;
+//   bottom: 0px;
+//   left: 601px;
+// }
+// .news__text {
+//   text-align: center;
+//   margin-top: 24px;
+// }
+// .news__cards {
+//   display: flex;
+//   gap: 24px;
+//   margin: 48px;
+// }
+
+// .news__picture {
+//   width: 424px;
+//   height: 270px;
+//   background-color: white;
+//   background-size: cover;
+// }
+// .news__pretitle {
+//   font-weight: 700;
+//   text-align: left;
+//   margin-top: 16px;
+// }
+// .news__date {
+//   font-size: 12px;
+// }
+// .news__desc {
+//   font-weight: 400;
+//   font-size: 14px;
+//   margin-top: 16px;
+// }
+// .item__link {
+//   width: 158px;
+//   background-color: $main-color;
+//   cursor: pointer;
+//   text-align: center;
+//   font-size: 14px;
+//   border: none;
+//   color: #ffffff;
+//   padding: 16px 24px 16px 24px;
+//   display: block;
+//   margin: 0 auto;
+//   font-weight: 900;
+// }
+// .news__pretitle:hover {
+//   color: $main-color;
+// }
+// .news__card {
+//   cursor: url(../src/images/cursors/la_hand-pointer.png) 2 2, default;
+// }

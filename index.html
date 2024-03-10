@@ -60,7 +60,7 @@
             <nav class="header__nav">
               <ul class="header__list">
                 <li class="header__item">
-                  <a class="header__item_blue" href="#services">Услуги</a>
+                  <a class="header__item_blue" href="#services">Услуги </a>
                 </li>
               </ul>
               <ul class="header__list"></ul>
@@ -76,7 +76,7 @@
               </ul>
               <ul class="header__list">
                 <li class="header__item">
-                  <a class="header__item_blue" href="#news">Новости</a>
+                  <a class="header__item_blue" href="#News">Новости</a>
                 </li>
               </ul>
               <ul class="header__list">
@@ -91,7 +91,9 @@
     </header>
     <main>
       <section class="hero">
+        
         <div class="container hero__wrapper">
+          <div></div>
           <div class="hero__text">
             <p class="hero__title">Оказываем весь комплекс</p>
             <h2 class="hero__title_blue">Юридических услуг</h2>
@@ -103,13 +105,11 @@
             <a href="#" class="hero__link">Наши услуги</a>
           </div>
           <div class="hero__changes">
-            <!-- <div class="hero__slider"> -->
             <div class="hero__sticks">
               <span class="hero__stick hero__stick_select"></span>
               <span class="hero__stick"></span>
               <span class="hero__stick"></span>
             </div>
-            <!-- </div> -->
             <div class="hero__change">
               <input class="change__arrow" type="button" value="<" />
               <span class="change__span">/</span>
@@ -118,7 +118,7 @@
           </div>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="container">
           <div class="services__text">
             <p class="services__title">Наши услуги</p>
@@ -130,11 +130,17 @@
 
             <div class="services__cards">
               <article class="services__item">
-                <img
+                <div class="services__mark">
+                  <img
                   src="./src/images/icons/icon.png"
                   class="service__icon"
                   alt="Иконка"
                 />
+                </div>
+                <div class="services__mark_two">
+                  <img src="./src/images/icons/Vector2.png" alt="Иконка">
+                </div>
+                
                 <h3 class="item__title">Банкротство физических лиц</h3>
                 <p class="services__description2">
                   Процедуру банкротства физических лиц в России регулирует закон
@@ -149,11 +155,16 @@
               </article>
 
               <article class="services__item">
-                <img
+               <div class="services__mark">
+                  <img
                   src="./src/images/icons/icon.png"
+                  class="service__icon"
                   alt="Иконка"
-                  class="services__icon"
                 />
+                </div>
+                <div class="services__mark_two">
+                  <img src="./src/images/icons/Vector2.png" alt="Иконка">
+                </div>
                 <h3 class="item__title">Сопровождение сделок</h3>
                 <p class="services__description2">
                   Инициирование, оформление, осуществление сделки и достижение
@@ -168,11 +179,16 @@
               </article>
 
               <article class="services__item">
-                <img
+                <div class="services__mark">
+                  <img
                   src="./src/images/icons/icon.png"
+                  class="service__icon"
                   alt="Иконка"
-                  class="services__icon"
                 />
+                </div>
+                <div class="services__mark_two">
+                  <img src="./src/images/icons/Vector2.png" alt="Иконка">
+                </div>
                 <h3 class="item__title">Корпоративные споры</h3>
                 <p class="services__description2">
                   Корпоративные споры – споры, связанные с созданием юрлица,
@@ -186,11 +202,16 @@
                 </div>
               </article>
               <article class="services__item">
-                <img
+               <div class="services__mark">
+                  <img
                   src="./src/images/icons/icon.png"
+                  class="service__icon"
                   alt="Иконка"
-                  class="services__icon"
                 />
+                </div>
+                <div class="services__mark_two">
+                  <img src="./src/images/icons/Vector2.png" alt="Иконка">
+                </div>
                 <h3 class="item__title">Недвижимость и строительство</h3>
                 <p class="services__description2">
                   Консультируем по различным вопросам в области недвижимости,
@@ -204,11 +225,16 @@
                 </div>
               </article>
               <article class="services__item">
-                <img
+               <div class="services__mark">
+                  <img
                   src="./src/images/icons/icon.png"
+                  class="service__icon"
                   alt="Иконка"
-                  class="services__icon"
                 />
+                </div>
+                <div class="services__mark_two">
+                  <img src="./src/images/icons/Vector2.png" alt="Иконка">
+                </div>
                 <h3 class="item__title">Возврат страховых премий</h3>
                 <p class="services__description2">
                   Для возврата страховой премии нужно подготовить следующий
@@ -223,11 +249,16 @@
                 </div>
               </article>
               <article class="services__item">
-                <img
+                <div class="services__mark">
+                  <img
                   src="./src/images/icons/icon.png"
+                  class="service__icon"
                   alt="Иконка"
-                  class="services__icon"
                 />
+                </div>
+                <div class="services__mark_two">
+                  <img src="./src/images/icons/Vector2.png" alt="Иконка">
+                </div>
                 <h3 class="item__title">Налоговое право и споры</h3>
                 <p class="services__description2">
                   Сопровождение налоговых проверок на любой стадии, анализ и
@@ -278,9 +309,10 @@
             alt="Книги"
             class="about__picture"
           />
+          <!-- <img lass="about__picture" src="./src/images/books2.png" alt="Книги"> -->
         </div>
       </section>
-      <section class="staff">
+      <section class="staff" id="staff">
         <div class="container">
           <div class="staff__text">
             <h3 class="staff__title">НАШИ ЮРИСТЫ</h3>
@@ -292,7 +324,7 @@
           </div>
           <div class="hiddenpool">
             <div class="staff__track">
-              <article class="staff__card">
+              <article class="staff__card center">
                 <div class="staff__front">
                   <img
                     src="./src/images/Photo1.png"
@@ -387,14 +419,14 @@
           </div>
         </div>
       </section> 
-      <section class="feedback">
+      <section class="feedback" id="feedback">
         <div class="container">
           <div class="feedback__wrapper">
            <p class="feedback__title">Что о нас говорят клиенты</p>
            <div class="feedback__change">
-           <input class="change__arrow" type="button" value="<" />
-           <span class="change__span">/</span>
-           <input class="change__arrow" type="button" value=">" /> </div>
+           <input class="change__arrow_blue" type="button" value="<" />
+           <span class="change__span_blue">/</span>
+           <input class="change__arrow_blue" type="button" value=">" /> </div>
           </div>
           <div class="feedback__wrapper_card">
             <div class="feedback__card">
@@ -409,13 +441,128 @@
             </div>
             <p class="feedback__desc">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов ...</p>
           </div>
+          <div class="feedback__card">
+              <div class="feedback__wrapp">
+                <div>
+              <img class="feedback__client" src="./src/images/respondent2 .png" alt="Клиент">
+            </div>
+            <div>
+              <p class="feedback__company">ООО “АО “ПРОМАРШ””</p>
+              <p class="feedback__name">Макаров Сергей</p>
+              </div>
+            </div>
+            <p class="feedback__desc">Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём.</p>
+          </div>
           </div>
           <div class="feedback__buttons">
           <a class="item__link_two" href="">Все отзывы</a>
           <a class="item__link_grey" href="">Написать отзыв</a></div>
         </div>
       </section>
+      <section class="news" id="News">
+        <div class="container">
+          <div class="news__content">
+<p class="news__title">Полезные материалы</p>
+<p class="news__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.<br> Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</p>
+          </div>
+          <div class="news__cards">
+            <article class="news__card">
+              <img src="./src/images/building.png" class="news__picture" alt="Небоскребы">
+<p class="news__pretitle">Воистину радостный звук: шёпот бессменных лидеров</p>
+<time class="news__date" datetime="2023-04-24">24 апр. 2023 г.</time>
+<p class="news__desc">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений. </p>
+ <div class="item__decoration">
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                </div>
+            </article>
+   <article class="news__card">
+              <img src="./src/images/paris.png" class="news__picture" alt="Париж">
+<p class="news__pretitle">Франция намерена исследовать, почему объемы выросли</p>
+<time class="news__date" datetime="2023-03-23">12 мар. 2023 г.</time>
+<p class="news__desc">Для современного мира новая модель организационной деятельности влечет за собой процесс внедрения и модернизации вывода текущих активов. Являясь всего лишь частью общей картины, базовые сценарии поведения. </p>
+ <div class="item__decoration">
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                </div>
+            </article>
+   <article class="news__card">
+              <img src="./src/images/team.png" class="news__picture" alt="Команда">
+<p class="news__pretitle">Сплочённость команды профессионалов продолжает удивлять</p>
+<time class="news__date" datetime="2023-02-23">02 фев. 2023 г.</time>
+<p class="news__desc">Современные технологии достигли такого уровня, что курс на социально-ориентированный национальный проект способствует повышению качества соответствующих условий активизации.  </p>
+ <div class="item__decoration">
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                  <span class="item__angle"></span>
+                </div>
+            </article>
+</div>
+<a class="item__link" href="#">Все новости</a>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="contacts">
+      <div class="container">
+<div class="footer__title">
+  <div>
+ <p class="footer__logo"> Юридическая компания <span class="footer__span">Правозащитник</span></p> 
+</div>
+<p class="footer__text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на <br> привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений.</p>
+    </div>
+    <hr>
+    <div class="menu__wrapper">
+    <div class="address__wrapper">
+    <div class="address">
+    <img src="./src/images/icons/footer_tag.png" alt="Геолокация">
+   <div class="footer__information">
+    <p class="footer__info">Наш адрес</p>
+    <a class="footer__item" href="https://www.google.ru/maps/search/%D0%B3.%D0%9E%D0%B4%D0%B8%D0%BD%D1%86%D0%BE%D0%B2%D0%BE,+%D0%BF%D1%80.+%D0%91%D1%83%D0%B4%D0%B0%D0%BF%D0%B5%D1%88%D1%82%D1%81%D1%82%D0%BA%D0%B0%D1%8F,+40/@55.6775006,37.2425121,13z/data=!3m1!4b1?entry=ttu">г.Одинцово, пр. Будапештсткая, 40</a>
+  </div>
+</div>
+<div class="phone">
+ <img src="./src/images/icons/footer__phone.png"  alt="Телефон">
+ 
+    <div class="footer__information">
+  <p class="footer__info">Запись на консультанцию</p> 
+    <a class="footer__item" href="tel:+79220229482"> +7 (922) 022-94-82 </a>
+    </div>
+</div>
+<div class="mail">
+ <img src="./src/images/icons/footer__mail.png" alt="Почта">
+    <div class="footer__information">
+ <p class="footer__info">Корреспонденция</p> 
+  <a class="footer__item"  href="mailto:janis62@yahoo.com">janis62@yahoo.com</a>
+    </div>
+</div>
+</div>
+
+<div class="footer__menu"> 
+      <a class="footer__item menu" href="">Услуги </a>
+      <a class="footer__item menu"  href="">О компании</a>
+      <a class="footer__item menu"  href="">Сертификаты</a>
+      <a class="footer__item menu"  href="">Отзывы</a>
+      <a  class="footer__item menu"  href="">Полезные материалы</a>
+      <a class="footer__item menu"  href="">Благотворительность</a>
+</div>
+<div>
+<div class="footer__ask">
+  <img class="footer__lawyer" src="./src/images/icons/footer__lawyer.png" alt="Юрист" >
+  <div class="footer__information">
+  <p class="footer__logo">Миронов Александр</p>
+  <p class="footer__info">Ведущий юрист</p>
+  </div>
+</div>
+<p class="footer__description">Есть над чем задуматься: тщательные исследования конкурентов разоблачены. Идейные соображения высшего порядка, а также перспективное планирование играет </p>
+<a class="item__link_two" href="">Задать вопрос юристу</a>
+</div>
+</div>
+    </footer>
   </body>
 </html>
+   
